@@ -1,0 +1,118 @@
+
+<!doctype html>
+<html>
+
+<head>
+	<title>Student Registration Form </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	
+	<link href="./bootstrap.css" rel="stylesheet" type='text/css' media="all" />
+	<link href="./style.css" rel="stylesheet" type='text/css' media="all" />
+	<!-- /css -->
+	<style>
+		.dd{
+			margin-left: 5%;
+		}
+		body {
+	background: url(img.jpg) no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+	</style>
+</head>
+
+<body>
+<center>
+	<div class="content-agileits">
+		<h1 class="title">student registration Form</h1>
+		<div class="dd">
+		<div class="left">
+			<form >
+				<div class="    ">
+					<label for="firstname" class="control-label">First Name:</label>
+					<input type="text" class="form-control" id="firstname" placeholder="First Name" data-error="Enter Your First Name" required>
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="    ">
+					<label for="lastname" class="control-label">Last Name:</label>
+					<input type="text" class="form-control" id="lastname" placeholder="Last Name" data-error="Enter Your Last Name" required>
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="    ">
+					<label for="inputEmail" class="control-label">Email:</label>
+					<input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="This email address is invalid" required>
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="    ">
+					<label for="Phone" class="control-label">Phone:</label>
+					<input type="text" class="form-control" id="Phone" placeholder="Phone" data-error="Enter Your Phone Number" required>
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="    ">
+					<label for="inputPassword" class="control-label">Password:</label>
+					<div class="form-inline row">
+						<div class="     col-sm-6 ">
+							<input type="password" data-minlength="6" class="form-control" id="inputPassword" placeholder="Password" required>
+							
+						</div>
+						<div class="    col-sm-6 w3-agile">
+							<input type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match"
+							    placeholder="Confirm Password" required>
+						</div>
+					</div>
+				</div>
+				<br>
+
+				<select>
+                     <option value="DPT">Department</option>
+   						<option value="CS">CSE</option>
+						  		<option value="opel">EEE</option>
+  							<option value="EC">ECE</option>
+  							<option value="MC">MECH</option>
+  							<option value="CV">CIVIL</option>
+
+</select>
+				
+						<input type="checkbox" required><span style="font-size: 17px; ">Day Scholar
+  <input type="checkbox" required> Hosteller<br></span>
+  <br>
+				<div class="     w3ls-opt">
+					<label for="Phone" class="control-label">Gender</label>
+
+					
+						<input type="radio" name="work" id="hire" value="male" checked>Male
+					
+						<input type="radio" name="work" id="work" value="female">Female
+					
+				</div>
+
+
+				
+					<button type="submit" class="btn btn-lg">submit</button><br>
+                     <input type="Reset" value="Reset" style="padding: 10px 100px; background-color: blue; color: #fff; font-weight: 700; font-size: 19px;"> 
+				</div>
+
+			</form>
+		</div>
+		 
+	</div>
+</center>				
+</body>
+</html>
